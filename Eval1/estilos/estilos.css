@@ -68,11 +68,16 @@ body{
     display: flex;
     flex-basis: 280px;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
+    padding-bottom: 0.8rem;
     flex-direction: column;
     font-weight: 700%;
     color: #C3E6FF;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.caratula > p{
+    margin-top: 3%;
 }
 
 .caratula > img{
@@ -84,7 +89,7 @@ body{
     color: white;
     width: 90%;
     font-weight: 700%;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
