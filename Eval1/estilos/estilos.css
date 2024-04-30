@@ -26,8 +26,9 @@ body{
 }
 
 .logo{
-    height: 24px;
+    height: 26.16px;
     cursor: pointer;
+    width: 80px;
 }
 
 .opciones{
@@ -194,11 +195,60 @@ body{
 svg{
     width: 2rem;
     height: 2rem;
-    border: solid 1px;
-    border-radius: 16px;
 }
 
 .iconos{
     display: flex;
-    gap: 5em;
+    gap: 2.8em;
+}
+
+.icono{
+    padding: 1em;
+}
+
+.icono:hover{
+    border: solid 1px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.contenedorfooter{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 592.31;
+    width: 100%;
+    background-color: #00122C;
+
+}
+
+.logosega{
+    width: 157.08;
+    height: 52.22;
+
+}
+
+.derechos{
+    display: block;
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.listasfooter{
+    color: #FFFFFF;
+    display: flex;
+    font-size: 0.75rem;
+    font-family:  ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.containerfinal{
+    margin-left: 80.656px;
+    margin-right: 80.656px;
+    column-gap: 9rem;
+    display: flex;
+}
+
+.lista{
+    list-style-type: none;
 }
