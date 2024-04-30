@@ -4,6 +4,7 @@
 
 body{
     background-color: #1B3360;
+    width: 100%;
 }
 
 .encabezado{
@@ -220,7 +221,6 @@ svg{
     padding-top: 5rem;
     padding-bottom: 5rem;
     height: 592.31;
-    width: 100%;
     background-color: #00122C;
 
 }
@@ -252,6 +252,7 @@ svg{
     padding-top: 3rem;
     display: flex;
     gap: 10rem;
+    max-width: 100%;
 }
 
 .lista{
@@ -272,6 +273,7 @@ svg{
     position: absolute;
     top:67%;
     left:36%;
+    cursor: pointer;
 }
 
 .letritaslogo{
@@ -290,6 +292,7 @@ svg{
     position: absolute;
     top:80%;
     left: 24%;
+    cursor: pointer;
 }
 
 .assemblylogo{
@@ -301,4 +304,17 @@ svg{
     position: absolute;
     top: 69%;
     left: 36%;
+    cursor: pointer;
+}
+
+.assemblyfusion:hover{
+    transform: translate(0, -15px);
+}
+
+.hardfusion:hover{
+    transform: translate(0, -15px);
+}
+
+.fusionlogo:hover{
+    transform: translate(0, -15px);
 }
