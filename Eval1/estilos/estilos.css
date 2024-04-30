@@ -171,7 +171,7 @@ body{
 
 
 .sede > img{
-    height: 464px;
+    height: 535x;
     width: 504.34px;
     border-radius: 6px;
 }
@@ -190,7 +190,7 @@ body{
 
 .siguenos{
     color: #FFFFFF;
-    font-weight: 700%;
+    font-weight: 700;
     font-family:  ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
@@ -270,5 +270,35 @@ svg{
 
 .fusionlogo{
     position: absolute;
-    
+    top:67%;
+    left:36%;
+}
+
+.letritaslogo{
+    color: #C3E6FF;
+    font-size: 100%;
+    font-weight: 700;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.hardlightlogo{
+    width: 269.16;
+    height: 40;
+}
+
+.hardfusion{
+    position: absolute;
+    top:80%;
+    left: 24%;
+}
+
+.assemblylogo{
+    width: 70.68;
+    height: 100;
+}
+
+.assemblyfusion{
+    position: absolute;
+    top: 69%;
+    left: 36%;
 }
