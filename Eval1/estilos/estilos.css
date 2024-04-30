@@ -26,9 +26,8 @@ body{
 }
 
 .logo{
-    height: 26.16px;
+    height: 24px;
     cursor: pointer;
-    width: 80px;
 }
 
 .opciones{
@@ -225,7 +224,7 @@ svg{
 .logosega{
     width: 157.08;
     height: 52.22;
-
+    
 }
 
 .derechos{
