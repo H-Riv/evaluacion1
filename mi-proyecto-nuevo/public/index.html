@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post It Simulator!</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body id="root">
-  
+<body>
+    <div class="container">
+        <h1>Post It Simulator!</h1>
+        <div class="input-section">
+            <input type="text" id="title" placeholder="Titulo">
+            <input type="text" id="description" placeholder="Descripción">
+            <label>
+                <input type="checkbox" id="important"> Importante
+            </label>
+            <button id="addNote">Agregar</button>
+        </div>
+        <div class="notes-container">
+            <!-- Notas aqui -->
+            <div class="note important-note">
+                <!-- Nota importante -->
+                <span class="close-btn">x</span>
+                <h2>Regar las plantas</h2>
+                <p>Dia por medio</p>
+            </div>
+            <div class="note normal-note">
+                <!-- Nota normal -->
+                <span class="close-btn">x</span>
+                <h2>Subir las notas</h2>
+                <p>Antes de fin de semestre</p>
+            </div>
+            <!-- Agregar mas notas aqui -->
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
